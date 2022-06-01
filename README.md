@@ -18,9 +18,9 @@ the world has ever faced:<br>
 
 ## About the code
 
-A set of tools to compile, mint and deploy the Zetasaurio NFT Collection..
+A set of tools to build and deploy the Zetasaurio NFT Collection.
 
 ## Contribution
 
-Any suggestion is more than welecome. You can find more information about the project in the [official website](https://zetasaurio.com).
+Any suggestions are more than welcome. You can find more information about the project in the [official website](https://zetasaurio.com).
 
