@@ -1,0 +1,78 @@
+{
+  "collection_name": "Zetasaurio",
+  "collection_description": "A diverse collection of bad-ass unique chickens fighting to save the planet of it bigger enemy: the human race.",
+  "base_image_uri": "ipfs://{base_cid}/{id}.png",
+  "width": 3600,
+  "height": 3600,
+  "max_items": 10000,
+  "items_dir": "build/items",
+  "layers_dir": "build/layers",
+  "order_separator": "#",
+  "rarity_separator": "%",
+  "random_seed": 526,
+  "omit_in_dna": ["Background"],
+  "rules": [
+    {
+      "layer_from": "Skin",
+      "feature_from": [
+        "M87 skin",
+        "What if...? skin",
+        "psychedelic skin",
+        "zombie skin"
+      ],
+      "layer_to": "Outfit",
+      "feature_to": "no outfit",
+      "probability": 0.75
+    },
+    {
+      "layer_from": "Outfit",
+      "feature_from": [
+        "astronaut outfit",
+        "Picasso outfit",
+        "ñom ñom outfit"
+      ],
+      "layer_to": "Crest",
+      "feature_to": "hairstyle crest"
+    },
+    {
+      "layer_from": "Outfit",
+      "feature_from": [
+        "astronaut outfit",
+        "Picasso outfit",
+        "ñom ñom outfit"
+      ],
+      "layer_to": "Hat",
+      "feature_to": "no hat"
+    },
+    {
+      "layer_from": "Outfit",
+      "feature_from": [
+        "astronaut outfit"
+      ],
+      "layer_to": "Glasses",
+      "feature_to": "no glasses"
+    },
+    {
+      "layer_from": "Hat",
+      "feature_from": [
+        "beach hat",
+        "cap hat",
+        "Jones hat",
+        "military hat",
+        "peaky hat",
+        "sailor hat"
+      ],
+      "layer_to": "Crest",
+      "feature_to": "hairstyle crest"
+    },
+    {
+      "layer_from": "Eyes",
+      "feature_from": [
+        "galaxy eyes",
+        "zombie eyes"
+      ],
+      "layer_to": "Glasses",
+      "feature_to": "no glasses"
+    }
+  ]
+}

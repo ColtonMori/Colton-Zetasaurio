@@ -1,0 +1,34 @@
+{
+  "name": "nft-toolbox",
+  "version": "1.0.0",
+  "description": "A set of tools to work with NFTs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joselove2code/nft-toolbox.git"
+  },
+  "keywords": [
+    "nft",
+    "nft-collection",
+    "nft-generation"
+  ],
+  "author": "Jose Ignacio Cruz Moreira",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joselove2code/nft-toolbox/issues"
+  },
+  "homepage": "https://github.com/joselove2code/nft-toolbox#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.5.1",
+    "dotenv": "^10.0.0",
+    "ganache-time-traveler": "^1.0.16",
+    "web3": "^1.6.0"
+  },
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "truffle-plugin-verify": "^0.5.20"
+  }
+}

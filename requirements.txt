@@ -1,0 +1,7 @@
+rope
+pylint
+autopep8
+colorama
+requests
+psd-tools
+python-dotenv
